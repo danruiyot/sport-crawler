@@ -1,0 +1,25 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run main & npm run new & npm run backup",
+    "main":"node main.js",
+    "new":"node new.js",
+    "backup":"node backup.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "cheerio": "^1.0.0-rc.3",
+    "firebase": "^8.0.0",
+    "scrape-youtube": "^0.2.6"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
